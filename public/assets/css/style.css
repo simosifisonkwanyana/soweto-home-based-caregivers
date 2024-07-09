@@ -213,12 +213,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
     text-transform: uppercase;
     line-height: 1.5;
 }
+.img-logo{ position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .header-text h2 span {color: #2cc59f;}
 .header-text p {
     color: #fcf0f0;
     font-size: 20px;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin: 30px 0 60px;
     letter-spacing: 1px;
 }
@@ -279,11 +280,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
     left:  0;
     width: 109%;
     height:  100%;
-    background: rgba(31,44,108,.3);
+    
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    max-width: 300px;
+    height: 268px;
 }
 .about-list-icon{
     display: flex;
