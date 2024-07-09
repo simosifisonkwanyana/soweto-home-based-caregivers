@@ -119,7 +119,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    color: #2c52f9;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -163,7 +163,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
-  background-color: #d92cf9;
+  background-color: #c04141;
 }
 /*.menu-ui-design*/
 
@@ -173,11 +173,11 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    border: 1px solid #3cd369;
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
 /*.navbar-toggle */
 
 
@@ -190,10 +190,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/backgroundimage.jpg)no-repeat;
     background-size:cover;
     background-position: center;
-    height:890px;
+    height:800px;/* we changed this from 890px*/
 }
 .welcome-hero:before{
     position:absolute;
@@ -213,9 +213,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+.header-text h2 span {color: #2cc59f;}
 .header-text p {
-    color: #fff;
+    color: #fcf0f0;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
@@ -229,7 +229,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
+    background: #410266;
     border:1px solid #b636ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
